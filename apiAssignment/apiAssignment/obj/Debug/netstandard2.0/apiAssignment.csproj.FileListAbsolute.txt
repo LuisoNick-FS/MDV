@@ -1,0 +1,16 @@
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.csproj.AssemblyReference.cache
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/DisplayPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.AssemblyInfoInputs.cache
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.AssemblyInfo.cs
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.csproj.CoreCompileInputs.cache
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/bin/Debug/netstandard2.0/apiAssignment.deps.json
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/bin/Debug/netstandard2.0/apiAssignment.dll
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/bin/Debug/netstandard2.0/ref/apiAssignment.dll
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/bin/Debug/netstandard2.0/apiAssignment.pdb
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.dll
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/ref/apiAssignment.dll
+/Users/nickluiso/Desktop/MDV/apiAssignment/apiAssignment/obj/Debug/netstandard2.0/apiAssignment.pdb
