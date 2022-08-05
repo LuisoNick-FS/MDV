@@ -1,6 +1,29 @@
 ﻿<Properties StartupConfiguration="{703FFD48-8EF9-438B-9232-69DBC9477981}|Default">
   <MonoDevelop.Ide.ItemProperties.apiAssignment FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="apiAssignment/MainPage.xaml">
+    <Files>
+      <File FileName="apiAssignment/MainPage.xaml" Line="21" Column="1" />
+      <File FileName="apiAssignment/Models/DataManager.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="apiAssignment" expanded="True">
+            <Node name="apiAssignment" expanded="True">
+              <Node name="Models" selected="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.apiAssignment.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.apiAssignment.Android FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.apiAssignment.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
