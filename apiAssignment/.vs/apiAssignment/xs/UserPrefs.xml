@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{703FFD48-8EF9-438B-9232-69DBC9477981}|Default">
   <MonoDevelop.Ide.ItemProperties.apiAssignment FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="apiAssignment/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="apiAssignment/Models/DataManager.cs">
     <Files>
-      <File FileName="apiAssignment/MainPage.xaml" Line="21" Column="1" />
-      <File FileName="apiAssignment/Models/DataManager.cs" Line="1" Column="1" />
+      <File FileName="apiAssignment/Models/DataManager.cs" Line="32" Column="32" />
+      <File FileName="apiAssignment/DisplayPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="apiAssignment" expanded="True">
             <Node name="apiAssignment" expanded="True">
-              <Node name="Models" selected="True" />
-              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="DataManager.cs" selected="True" />
+              </Node>
+              <Node name="DisplayPage.xaml" expanded="True" />
             </Node>
           </Node>
         </State>
