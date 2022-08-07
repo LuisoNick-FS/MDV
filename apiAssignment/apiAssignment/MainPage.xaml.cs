@@ -21,7 +21,8 @@ namespace apiAssignment
 
         private void TuneButton_Clicked(object sender, EventArgs e)
         {
-            DataManager fishData = new DataManager("profiles/red-snapper");
+            DataManager fishData = new DataManager("");
+            fishData.GetFish();
         }
     }
 }

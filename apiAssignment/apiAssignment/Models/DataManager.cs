@@ -28,7 +28,16 @@ namespace apiAssignment.Models
             fishName = fishToFind;
         }
 
+        public void GetFish()
+        {
+            string apiString = apiConnection.DownloadString(apiEndPoint);
 
+            JObject jsonData = JObject.Parse(apiString);
+
+            Debug.WriteLine(jsonData.ToString());
+        }
+
+        /*
         public async Task<List<FishData>> FindFish()
         {
             List<FishData> fishList = new List<FishData>();
@@ -44,10 +53,10 @@ namespace apiAssignment.Models
 
 
             return fishList;
-
+        
 
         }
-
+        */
 
 
 
