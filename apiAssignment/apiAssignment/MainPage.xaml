@@ -9,7 +9,14 @@
         </Frame>
 
         <StackLayout>
-            <Button x:Name="tuneButton" Text="Tuna" />
+            <Image x:Name="fishImage" Source="" HeightRequest="125" />
+            <Label x:Name="nameLabel" Text="Name: " />
+            <Label x:Name="locLabel" Text="Habitat: " />
+            <Label x:Name="statLabel" Text="Sustainability:" />
+        </StackLayout>
+
+        <StackLayout>
+            <Button x:Name="tuneButton" Text="Red Snapper" />
             <Button x:Name="monkButton" Text="Monkfish" />
             <Button x:Name="sharkButton" Text="Shark" />
         </StackLayout>

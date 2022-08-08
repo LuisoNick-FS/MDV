@@ -29,17 +29,26 @@ namespace apiAssignment.Models
         }
 
 
-
-        public void GetFish()
+        
+        public async Task<FishData> GetFish()
         {
-            string apiString = apiConnection.DownloadString(apiEndPoint);
+            string apiString = await apiConnection.DownloadStringTaskAsync(apiEndPoint);
 
-            JObject jsonData = JObject.Parse(apiString);
+            JArray jsonData = JArray.Parse(apiString);
 
-            Debug.WriteLine(jsonData.ToString());
+            Debug.WriteLine(jsonData[0]["Species Name"].ToString());
+            Debug.WriteLine(jsonData[0]["Species Illustration Photo"]["src"].ToString());
+
+            FishData fishData = new FishData();
+            fishData.ImgSrc = jsonData[0]["Species Illustration Photo"]["src"].ToString();
+            fishData.Name = jsonData[0]["Species Name"].ToString();
+            fishData.Location = jsonData[0]["Location"].ToString();
+            fishData.Status = jsonData[0]["Availability"].ToString();
+
+            return fishData;
         }
-
-        /*
+        
+        
         public async Task<List<FishData>> FindFish()
         {
             List<FishData> fishList = new List<FishData>();
@@ -50,7 +59,7 @@ namespace apiAssignment.Models
             JObject jsonData = JObject.Parse(apiString);
 
             //debug to show data is being pulled
-            Debug.WriteLine(jsonData.ToString());
+            Debug.WriteLine(jsonData[0]["Species Name"].ToString());
 
 
 
@@ -58,7 +67,7 @@ namespace apiAssignment.Models
         
 
         }
-        */
+        
 
 
 
