@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Luiso_Nick_SignInSignUp.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="FishFinder" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+
+
+           <Image Source="logo.png" HorizontalOptions="Center" VerticalOptions="Center" Scale="0.75" />
+
+        <StackLayout Orientation="Horizontal">
+
+            <Button x:Name="signInButton" Text="Sign In" HorizontalOptions="StartAndExpand" />
+            <Button x:Name="signUpButton" Text="Sign Up" HorizontalOptions="EndAndExpand" />
+
+        </StackLayout>
+
+
+
+    </StackLayout>
+
+</ContentPage>

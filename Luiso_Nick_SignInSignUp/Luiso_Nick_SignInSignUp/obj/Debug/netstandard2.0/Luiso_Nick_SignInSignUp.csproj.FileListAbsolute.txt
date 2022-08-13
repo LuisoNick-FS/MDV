@@ -1,0 +1,15 @@
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/bin/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.deps.json
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/bin/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/bin/Debug/netstandard2.0/ref/Luiso_Nick_SignInSignUp.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/bin/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.pdb
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.csproj.AssemblyReference.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.AssemblyInfoInputs.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.AssemblyInfo.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.csproj.CoreCompileInputs.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/ref/Luiso_Nick_SignInSignUp.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.pdb

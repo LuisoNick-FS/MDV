@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{703FFD48-8EF9-438B-9232-69DBC9477981}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="apiAssignment/MainPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="apiAssignment/MainPage.xaml.cs">
     <Files>
       <File FileName="apiAssignment/Models/DataManager.cs" Line="37" Column="55" />
-      <File FileName="apiAssignment/MainPage.xaml.cs" Line="19" Column="1" />
-      <File FileName="apiAssignment/MainPage.xaml" Line="12" Column="17" />
+      <File FileName="apiAssignment/MainPage.xaml.cs" Line="37" Column="58" />
+      <File FileName="apiAssignment/MainPage.xaml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -11,7 +11,6 @@
           <Node name="apiAssignment" expanded="True">
             <Node name="apiAssignment" expanded="True">
               <Node name="Models" expanded="True" />
-              <Node name="MainPage.xaml" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>

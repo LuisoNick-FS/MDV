@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{4D9E86A3-A053-4192-B0D0-081361BA7D2B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Luiso__Nick__SignInSignUp.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Luiso__Nick__SignInSignUp FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_SignInSignUp/MainPage.xaml">
+    <Files>
+      <File FileName="Luiso_Nick_SignInSignUp/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="Luiso_Nick_SignInSignUp/MainPage.xaml" Line="10" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Luiso_Nick_SignInSignUp" expanded="True">
+            <Node name="Luiso_Nick_SignInSignUp" expanded="True">
+              <Node name="App.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Luiso__Nick__SignInSignUp.Android FirstBuild="True" PreferredExecutionTarget="Android.pixel_2_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
