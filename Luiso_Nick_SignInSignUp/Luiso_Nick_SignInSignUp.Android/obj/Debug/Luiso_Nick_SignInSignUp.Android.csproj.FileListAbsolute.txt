@@ -575,3 +575,4 @@
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp.Android/obj/Debug/res/drawable/profile.png

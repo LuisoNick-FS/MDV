@@ -13,3 +13,4 @@
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.dll
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/ref/Luiso_Nick_SignInSignUp.dll
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/Luiso_Nick_SignInSignUp.pdb
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_SignInSignUp/Luiso_Nick_SignInSignUp/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
