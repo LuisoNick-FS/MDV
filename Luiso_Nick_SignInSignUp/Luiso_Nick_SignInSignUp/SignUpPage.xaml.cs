@@ -27,6 +27,9 @@ namespace Luiso_Nick_SignInSignUp
                 await DisplayAlert("Entry Error","Please Enter A Name","OK");
             }
 
+            //The emailEntry throws an error saying that there is no object instance.
+            //I do not know what to do
+
             //if (emailEntry.Text.Contains("@"))
             //{
             //}
@@ -35,6 +38,13 @@ namespace Luiso_Nick_SignInSignUp
             //    await DisplayAlert("Entry Error", "Please enter valid email", "OK");
             //}
 
+            if (confirmEntry != passEntry)
+            {
+                //display error for passwords
+                await DisplayAlert("Entry Error", "Passwords do not match", "OK");
+
+                //this displays regardless of values. I do not know what to do.
+            }
 
 
         }
