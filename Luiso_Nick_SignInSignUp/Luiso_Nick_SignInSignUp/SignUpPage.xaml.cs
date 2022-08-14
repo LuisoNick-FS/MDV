@@ -11,6 +11,16 @@ namespace Luiso_Nick_SignInSignUp
         {
             InitializeComponent();
             signInButton.Clicked += SignInButton_Clicked;
+            signUpButton.Clicked += SignUpButton_Clicked;
+        }
+
+        private void SignUpButton_Clicked(object sender, EventArgs e)
+        {
+            //check fields for valid entries
+            if (nameEntry.Text == "")
+            {
+                Navigation.PushModalAsync("Please enter a name",);
+            }
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)
