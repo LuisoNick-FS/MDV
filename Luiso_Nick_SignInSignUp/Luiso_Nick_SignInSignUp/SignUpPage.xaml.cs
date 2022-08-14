@@ -49,7 +49,11 @@ namespace Luiso_Nick_SignInSignUp
         {
             //make return variable
             bool isValid = false;
-
+            //make check variables
+            bool name = false;
+            bool email = false;
+            bool pass = false;
+            bool confirm = false;
 
             //------------------------------------
 
@@ -59,15 +63,15 @@ namespace Luiso_Nick_SignInSignUp
             if (string.IsNullOrWhiteSpace(nameEntry.Text))
             {
 
-                isValid = false;
+                name = false;
             }
             else
             {
-                isValid = true;
+                name = true;
             }
             //------------------------------------
 
-            //EMAIL VALIDATION
+            //EMAIL VALIDATION -- DOES NOT WORK --
 
             //string s1 = emailEntry.Text;
             //string s2 = "@";
@@ -75,14 +79,49 @@ namespace Luiso_Nick_SignInSignUp
 
             //if (b)
             //{
-            //    isValid = true;
+            //    email = true;
             //}
+
+            //debug test
+            //-----------
+            email = true;
+            //-----------
 
             //-----------------------------------------------
 
             //PASSWORD VALIDATIONS
 
+            if(string.IsNullOrWhiteSpace(passEntry.Text))
+            {
+
+                pass = false;
+            }
+            else
+            {
+                pass = true;
+            }
+
+            //---------
+
+            //PASSWORD CHECK VALIDATION
+
+            if (confirmEntry.Text == passEntry.Text)
+            {
+                confirm = true;
+            }
+            else
+            {
+                confirm = false;
+            }
+
             //-----------------------------------------------
+
+            //COMPARE ALL CHECK
+            if (name && email && pass && confirm)
+            {
+                isValid = true;
+            }
+
 
             //return if all entries are good or not
             return isValid;
