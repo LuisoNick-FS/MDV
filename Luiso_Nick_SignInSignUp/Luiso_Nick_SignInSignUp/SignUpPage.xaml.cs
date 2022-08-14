@@ -22,7 +22,21 @@ namespace Luiso_Nick_SignInSignUp
        async void SignUpButton_Clicked(object sender, EventArgs e)
         {
             //check fields for valid entries
-           
+            if (nameEntry.Text == null)
+            {
+                await DisplayAlert("Entry Error","Please Enter A Name","OK");
+            }
+
+            //if (emailEntry.Text.Contains("@"))
+            //{
+            //}
+            //else
+            //{
+            //    await DisplayAlert("Entry Error", "Please enter valid email", "OK");
+            //}
+
+
+
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)
