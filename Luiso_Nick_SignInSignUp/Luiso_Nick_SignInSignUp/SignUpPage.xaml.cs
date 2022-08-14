@@ -14,10 +14,20 @@ namespace Luiso_Nick_SignInSignUp
             signUpButton.Clicked += SignUpButton_Clicked;
         }
 
-        private void SignUpButton_Clicked(object sender, EventArgs e)
+        async void SignUpButton_Clicked(object sender, EventArgs e)
         {
             //check fields for valid entries
-            RunChecks();
+            //make a list off error messages
+            string[] errors = new string[3];
+
+            errors[0] = "Please enter a name";
+
+            if (nameEntry == null)
+            {
+
+                await DisplayAlert("Entry Error", errors[0], "OK");
+
+            }
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)
@@ -36,16 +46,18 @@ namespace Luiso_Nick_SignInSignUp
             //make a list off error messages
             string[] errors = new string[3];
 
+            errors[0] = "Please enter a name";
+
             if (nameEntry == null)
             {
-                errors[0] = "Please enter a name";
                 
+                await DisplayAlert("Entry Error", errors[0], "OK");
 
             }
 
             Debug.WriteLine(errors[0]);
 
-            await DisplayAlert("Entry Error", errors[0], "OK");
+            
 
 
         }
