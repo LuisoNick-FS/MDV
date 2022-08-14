@@ -9,7 +9,7 @@ namespace Luiso_Nick_SignInSignUp
     {
 
         //make a list off error messages
-        string[] errors = new string[3];
+        //string[] errors = new string[3];
        
 
         public SignUpPage()
@@ -22,31 +22,20 @@ namespace Luiso_Nick_SignInSignUp
        async void SignUpButton_Clicked(object sender, EventArgs e)
         {
             //check fields for valid entries
-            if (nameEntry.Text == null)
+            bool go = RunChecks();
+
+            //decide what to do
+            if (go)
             {
-                await DisplayAlert("Entry Error","Please Enter A Name","OK");
+                //log in if valid
+                await Navigation.PushAsync(new EndPage());
             }
-
-            //The emailEntry throws an error saying that there is no object instance.
-            //I do not know what to do
-
-            //if (emailEntry.Text.Contains("@"))
-            //{
-            //}
-            //else
-            //{
-            //    await DisplayAlert("Entry Error", "Please enter valid email", "OK");
-            //}
-
-            if (confirmEntry != passEntry)
+            else
             {
-                //display error for passwords
-                await DisplayAlert("Entry Error", "Passwords do not match", "OK");
+                //tell user there is problem
+                await DisplayAlert("Entry Error", "Please Enter Valid Entries", "OK");
 
-                //this displays regardless of values. I do not know what to do.
             }
-
-
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)
@@ -56,7 +45,48 @@ namespace Luiso_Nick_SignInSignUp
         }
 
 
+        private bool RunChecks()
+        {
+            //make return variable
+            bool isValid = false;
 
+
+            //------------------------------------
+
+            //USERNAME VALIDATION
+
+            //check if name entry has valid info
+            if (string.IsNullOrWhiteSpace(nameEntry.Text))
+            {
+
+                isValid = false;
+            }
+            else
+            {
+                isValid = true;
+            }
+            //------------------------------------
+
+            //EMAIL VALIDATION
+
+            //string s1 = emailEntry.Text;
+            //string s2 = "@";
+            //bool b = s1.Contains(s2);
+
+            //if (b)
+            //{
+            //    isValid = true;
+            //}
+
+            //-----------------------------------------------
+
+            //PASSWORD VALIDATIONS
+
+            //-----------------------------------------------
+
+            //return if all entries are good or not
+            return isValid;
+        }
 
 
 
