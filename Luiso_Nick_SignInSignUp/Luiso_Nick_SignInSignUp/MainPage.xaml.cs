@@ -15,6 +15,12 @@ namespace Luiso_Nick_SignInSignUp
             InitializeComponent();
 
             signInButton.Clicked += SignInButton_Clicked;
+            signUpButton.Clicked += SignUpButton_Clicked;
+        }
+
+        private void SignUpButton_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new SignUpPage());
         }
 
         private void SignInButton_Clicked(object sender, EventArgs e)

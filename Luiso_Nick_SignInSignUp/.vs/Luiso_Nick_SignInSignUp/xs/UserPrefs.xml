@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{4D9E86A3-A053-4192-B0D0-081361BA7D2B}|Default">
   <MonoDevelop.Ide.ItemProperties.Luiso__Nick__SignInSignUp.iOS FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_SignInSignUp/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_SignInSignUp/SignUpPage.xaml">
     <Files>
       <File FileName="Luiso_Nick_SignInSignUp/MainPage.xaml.cs" Line="18" Column="10" />
+      <File FileName="Luiso_Nick_SignInSignUp/SignUpPage.xaml" Line="8" Column="1" />
+      <File FileName="Luiso_Nick_SignInSignUp/SignUpPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Luiso_Nick_SignInSignUp" expanded="True">
             <Node name="Luiso_Nick_SignInSignUp" expanded="True">
-              <Node name="MainPage.xaml" expanded="True">
-                <Node name="MainPage.xaml.cs" selected="True" />
-              </Node>
+              <Node name="SignUpPage.xaml" expanded="True" selected="True" />
             </Node>
             <Node name="Luiso_Nick_SignInSignUp.Android" expanded="True">
               <Node name="Resources" expanded="True" />
