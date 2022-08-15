@@ -7,7 +7,7 @@
 
         <StackLayout>
 
-            <Label Text="You Are Now Logged In!"/>
+            <Label Text="You Are Now Logged In!" />
             <Button x:Name="logOutButton" Text="Log Out"/>
 
         </StackLayout>

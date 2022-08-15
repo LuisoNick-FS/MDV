@@ -11,7 +11,7 @@
             
             <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" HorizontalOptions="Fill" HorizontalTextAlignment="Center"/>
             <Entry x:Name="passEntry" Placeholder="Password" HorizontalTextAlignment="Center"/>
-            <Button Text="Sign In" HorizontalOptions="Center"/>
+            <Button x:Name="signInButton" Text="Sign In" HorizontalOptions="Center"/>
 
         </StackLayout>
 
