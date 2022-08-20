@@ -1,9 +1,7 @@
 ﻿<Properties StartupConfiguration="{FB6F11E5-7245-4AF9-A4F1-20E779628823}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_Alpha/SignUpPage.xaml.cs">
     <Files>
-      <File FileName="Luiso_Nick_Alpha/SignInPage.xaml" Line="1" Column="1" />
       <File FileName="Luiso_Nick_Alpha/SignInPage.xaml.cs" Line="1" Column="1" />
-      <File FileName="Luiso_Nick_Alpha/SignUpPage.xaml" Line="1" Column="1" />
       <File FileName="Luiso_Nick_Alpha/SignUpPage.xaml.cs" Line="1" Column="1" />
     </Files>
     <Pads>
