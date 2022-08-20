@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="Luiso_Nick_Alpha.DisplayPage">
+    <ContentPage.Content>
+
+
+         <StackLayout>
+            <Image x:Name="fishImage" Source="" HeightRequest="125" />
+            <Label x:Name="nameLabel" Text="Name: " />
+            <Label x:Name="locLabel" Text="Habitat: " />
+            <Label x:Name="statLabel" Text="Sustainability:" />
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>
