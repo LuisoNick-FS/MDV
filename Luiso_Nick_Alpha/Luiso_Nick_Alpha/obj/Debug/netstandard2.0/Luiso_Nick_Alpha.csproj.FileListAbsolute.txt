@@ -1,0 +1,10 @@
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.csproj.AssemblyReference.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/DisplayPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/SignInPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/SignUpPage.xaml.g.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.AssemblyInfoInputs.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.AssemblyInfo.cs
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.csproj.CoreCompileInputs.cache
