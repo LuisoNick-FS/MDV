@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "6NZUAAi8xk8ZlFRr3A4sh+rKzb/7nMAmLyo6LSUFx1FqCmSVcLXoqjNNSQ/TAhqCU1Z6c8q89RX/v2B2R6OOYg==",
+  "success": true,
+  "projectFilePath": "/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha.iOS/Luiso_Nick_Alpha.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/nickluiso/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/nickluiso/.nuget/packages/xamarin.essentials/1.6.1/xamarin.essentials.1.6.1.nupkg.sha512",
+    "/Users/nickluiso/.nuget/packages/xamarin.forms/5.0.0.2012/xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
