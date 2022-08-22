@@ -22,7 +22,7 @@ namespace Luiso_Nick_Alpha
             if (go)
             {
                 //log in if valid
-                await Navigation.PushAsync(new EndPage());
+                await Navigation.PushAsync(new DisplayPage());
             }
             else
             {

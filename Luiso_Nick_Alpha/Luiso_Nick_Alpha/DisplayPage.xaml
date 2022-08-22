@@ -5,13 +5,30 @@
     x:Class="Luiso_Nick_Alpha.DisplayPage">
     <ContentPage.Content>
 
+        <StackLayout>
+             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="FishFinder" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
 
-         <StackLayout>
+
+                  <StackLayout>
             <Image x:Name="fishImage" Source="" HeightRequest="125" />
             <Label x:Name="nameLabel" Text="Name: " />
             <Label x:Name="locLabel" Text="Habitat: " />
             <Label x:Name="statLabel" Text="Sustainability:" />
         </StackLayout>
+
+             <StackLayout>
+            <Button x:Name="snapButton" Text="Red Snapper" />
+            <Button x:Name="monkButton" Text="Monkfish" />
+            <Button x:Name="sharkButton" Text="Shark" />
+        </StackLayout>
+
+
+
+        </StackLayout>
+
+   
 
     </ContentPage.Content>
 </ContentPage>

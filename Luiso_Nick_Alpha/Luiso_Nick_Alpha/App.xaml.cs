@@ -10,7 +10,7 @@ namespace Luiso_Nick_Alpha
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage( new MainPage());
         }
 
         protected override void OnStart()

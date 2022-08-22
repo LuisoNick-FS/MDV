@@ -8,3 +8,11 @@
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.AssemblyInfoInputs.cache
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.AssemblyInfo.cs
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.csproj.CoreCompileInputs.cache
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/bin/Debug/netstandard2.0/Luiso_Nick_Alpha.deps.json
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/bin/Debug/netstandard2.0/Luiso_Nick_Alpha.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/bin/Debug/netstandard2.0/ref/Luiso_Nick_Alpha.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/bin/Debug/netstandard2.0/Luiso_Nick_Alpha.pdb
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/ref/Luiso_Nick_Alpha.dll
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha/obj/Debug/netstandard2.0/Luiso_Nick_Alpha.pdb
