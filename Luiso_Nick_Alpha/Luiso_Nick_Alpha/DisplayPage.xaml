@@ -5,23 +5,24 @@
     x:Class="Luiso_Nick_Alpha.DisplayPage">
     <ContentPage.Content>
 
-        <StackLayout>
-             <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="FishFinder" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        <StackLayout BackgroundColor="#2589BD">
+
+        <Frame BackgroundColor="#2589BD" Padding="24" CornerRadius="0">
+            <Label Text="FishFinder" HorizontalTextAlignment="Center" TextColor="#FFEAD0" FontSize="36"/>
         </Frame>
 
 
-                  <StackLayout>
-            <Image x:Name="fishImage" Source="" HeightRequest="125" />
-            <Label x:Name="nameLabel" Text="Name: " />
-            <Label x:Name="locLabel" Text="Habitat: " />
-            <Label x:Name="statLabel" Text="Sustainability:" />
+        <StackLayout BackgroundColor="#2589BD">
+            <Image x:Name="fishImage" Source="" HeightRequest="250" />
+            <Label x:Name="nameLabel" Text="Name: " TextColor="#FFEAD0" />
+            <Label x:Name="locLabel" Text="Habitat: " TextColor="#FFEAD0"/>
+            <Label x:Name="statLabel" Text="Sustainability:" TextColor="#FFEAD0"/>
         </StackLayout>
 
-             <StackLayout>
-            <Button x:Name="snapButton" Text="Red Snapper" />
-            <Button x:Name="monkButton" Text="Monkfish" />
-            <Button x:Name="sharkButton" Text="Shark" />
+        <StackLayout BackgroundColor="#2589BD">
+            <Button x:Name="snapButton" Text="Red Snapper" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
+            <Button x:Name="monkButton" Text="Monkfish" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
+            <Button x:Name="sharkButton" Text="Shark" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
         </StackLayout>
 
 

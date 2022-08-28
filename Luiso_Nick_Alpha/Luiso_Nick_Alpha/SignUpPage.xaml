@@ -6,15 +6,19 @@
     <ContentPage.Content>
 
 
-         <StackLayout>
+         <StackLayout BackgroundColor="#2589BD">
+              <Frame BackgroundColor="#2589BD" Padding="24" CornerRadius="0">
+            <Label Text="Sign Up" HorizontalTextAlignment="Center" TextColor="#FFEAD0" FontSize="36"/>
+        </Frame>
+
 
             <Entry x:Name="nameEntry" Placeholder="Full Name"/>
             <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email"/>
             <Entry x:Name="passEntry" Placeholder="Password"/>
             <Entry x:Name="confirmEntry" Placeholder="Confirm Passowrd"/>
 
-            <Button x:Name="signUpButton" Text="Sign Up"/>
-            <Button x:Name="signInButton" Text="Already have an acount? Sign In" BackgroundColor="#F5F5F5" />
+            <Button x:Name="signUpButton" Text="Sign Up" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
+            <Button x:Name="signInButton" Text="Already have an acount? Sign In" BackgroundColor="#2589BD" TextColor="#0B2545" />
         </StackLayout>
 
 

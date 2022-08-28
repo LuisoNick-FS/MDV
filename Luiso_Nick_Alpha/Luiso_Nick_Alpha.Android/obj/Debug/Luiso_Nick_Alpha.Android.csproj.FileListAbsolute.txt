@@ -576,3 +576,4 @@
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha.Android/obj/Debug/stamp/_GenerateJavaStubs.stamp
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha.Android/obj/Debug/stamp/_GeneratePackageManagerJava.stamp
 /Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha.Android/obj/Debug/stamp/_ResolveLibraryProjectImports.stamp
+/Users/nickluiso/Desktop/MDV/Luiso_Nick_Alpha/Luiso_Nick_Alpha.Android/obj/Debug/res/drawable/fish_bg.png

@@ -6,12 +6,16 @@
     <ContentPage.Content>
 
 
-           <StackLayout>
+           <StackLayout BackgroundColor="#2589BD">
+                <Frame BackgroundColor="#2589BD" Padding="24" CornerRadius="0">
+            <Label Text="Sign In" HorizontalTextAlignment="Center" TextColor="#FFEAD0" FontSize="36"/>
+        </Frame>
+
             <Image Source="profile.png" Margin="30" Scale="1.5"/>
             
             <Entry x:Name="emailEntry" Placeholder="Email" Keyboard="Email" HorizontalOptions="Fill" HorizontalTextAlignment="Center"/>
             <Entry x:Name="passEntry" Placeholder="Password" HorizontalTextAlignment="Center"/>
-            <Button x:Name="signInButton" Text="Sign In" HorizontalOptions="Center"/>
+            <Button x:Name="signInButton" Text="Sign In" HorizontalOptions="Center" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
 
         </StackLayout>
 
