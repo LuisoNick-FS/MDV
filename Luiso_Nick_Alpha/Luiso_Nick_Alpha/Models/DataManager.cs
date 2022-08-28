@@ -30,6 +30,30 @@ namespace Luiso_Nick_Alpha.Models
 
 
 
+        //-------------------------------------------------------------------
+        //TEST////
+        //-------------------------------------------------------------------
+
+        private string StringTest(string data)
+        {
+
+            string s = data;
+
+            //create seperators
+            char[] seperators = new char[] {'>','<','/' };
+
+            string[] subs = s.Split(seperators,StringSplitOptions.RemoveEmptyEntries);
+
+           
+
+           // Debug.WriteLine(subs[1],StringSplitOptions.RemoveEmptyEntries);
+
+            return subs[1];
+        }
+
+
+        //------------------------------------------------------------------
+
         public async Task<FishData> GetFish()
         {
             string apiString = await apiConnection.DownloadStringTaskAsync(apiEndPoint);
@@ -37,13 +61,18 @@ namespace Luiso_Nick_Alpha.Models
             JArray jsonData = JArray.Parse(apiString);
 
             Debug.WriteLine(jsonData[0]["Species Name"].ToString());
+
+            //test
+            StringTest(jsonData[0]["Availability"].ToString());
+            Debug.WriteLine(jsonData[0]["Harvest Type"].ToString());
+
             Debug.WriteLine(jsonData[0]["Species Illustration Photo"]["src"].ToString());
 
             FishData fishData = new FishData();
             fishData.ImgSrc = jsonData[0]["Species Illustration Photo"]["src"].ToString();
             fishData.Name = jsonData[0]["Species Name"].ToString();
-            fishData.Location = jsonData[0]["Location"].ToString();
-            fishData.Status = jsonData[0]["Availability"].ToString();
+            fishData.Location = jsonData[0]["Harvest Type"].ToString();
+            fishData.Status = StringTest(jsonData[0]["Availability"].ToString());
 
             return fishData;
         }
