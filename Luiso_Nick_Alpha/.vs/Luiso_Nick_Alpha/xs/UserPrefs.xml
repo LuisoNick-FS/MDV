@@ -1,16 +1,18 @@
 ﻿<Properties StartupConfiguration="{FB6F11E5-7245-4AF9-A4F1-20E779628823}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_Alpha/DisplayPage.xaml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Luiso_Nick_Alpha/DisplayPage.xaml.cs">
     <Files>
       <File FileName="Luiso_Nick_Alpha/Models/DataManager.cs" Line="68" Column="1" />
       <File FileName="Luiso_Nick_Alpha/DisplayPage.xaml" Line="36" Column="1" />
+      <File FileName="Luiso_Nick_Alpha/DisplayPage.xaml.cs" Line="18" Column="20" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Luiso_Nick_Alpha" expanded="True">
             <Node name="Luiso_Nick_Alpha" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="DisplayPage.xaml" expanded="True" selected="True" />
+              <Node name="DisplayPage.xaml" expanded="True">
+                <Node name="DisplayPage.xaml.cs" selected="True" />
+              </Node>
               <Node name="MainPage.xaml" expanded="True" />
               <Node name="SignInPage.xaml" expanded="True" />
             </Node>

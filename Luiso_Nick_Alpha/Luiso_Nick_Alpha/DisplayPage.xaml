@@ -19,11 +19,17 @@
             <Label x:Name="statLabel" Text="Sustainability:" TextColor="#FFEAD0"/>
         </StackLayout>
 
-        <StackLayout BackgroundColor="#2589BD">
+        <Grid BackgroundColor="#2589BD">   
             <Button x:Name="snapButton" Text="Red Snapper" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
-            <Button x:Name="monkButton" Text="Monkfish" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
-            <Button x:Name="sharkButton" Text="Shark" BackgroundColor="#0B2545" TextColor="#FFEAD0"/>
-        </StackLayout>
+            <Button x:Name="monkButton" Text="Monkfish" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Column="1"/>
+            <Button x:Name="sharkButton" Text="Shark" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Column="1" Grid.Row="1"/>
+            <Button x:Name="tunaButton" Text="Tuna" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Row="1"/>
+            <Button x:Name="snowCrabButton" Text="Snow Crab" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Row="2"/>
+            <Button x:Name="lobsterButton" Text="Lobster" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Column="1" Grid.Row="2"/>
+            <Button x:Name="herringButton" Text="Herring" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Row="3"/>
+            <Button x:Name="haddockButton" Text="Haddock" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Column="0" Grid.Row="3"/>
+            <Button x:Name="salmonButton" Text="Atlantic Salmon" BackgroundColor="#0B2545" TextColor="#FFEAD0" Grid.Column="1" Grid.Row="3"/>
+        </Grid>
 
 
 
